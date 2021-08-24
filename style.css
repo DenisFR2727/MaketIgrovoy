@@ -1,0 +1,328 @@
+
+/* *{
+    box-sizing: border-box;
+} */
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./img/Layer\ 48.png');
+    background-size: cover;
+}
+header{
+    background-image: url('./img/Layer\ 2.png');
+    width: 1196px;
+    height: 430px;
+    margin: 0 auto;
+}
+.sublime_text_header{
+    color:#ffffff;
+}
+.sublime_text_header p:first-letter{
+    color: #e8b407;
+    font-size: 18px;
+}
+.download_header_psd{
+    color: #e8b407;
+    font-size: 18px;
+    font-family: Myriad Pro;
+}
+.download_header a{
+    text-decoration: none;
+}
+.sublime_content{
+    padding-top: 120px;
+    padding-left: 137px;
+}
+.sublime_text_header{
+    width: 35%;
+    padding-top: 18px;
+}
+nav{
+    /* margin-bottom: 0; */
+    background-image: url('./img/Layer\ 5.png');
+    margin: 0 auto;
+    width: 1196px;
+    height: 650px;
+}
+.We_create p{
+    margin: 0;
+    margin-left: 42px;
+    width: 40%;
+    padding-top: 70px;
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.We_create p span:nth-child(1){
+    color: #e8b407;
+}
+.nav_bar{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_bar a p{
+    font-size: 18px;
+    color: #e8b407;
+}
+.nav_bar a{
+    /* position: relative; */
+	color: #e8b407; 
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none; 
+    text-decoration: none;
+}
+.nav_bar a:after {
+	display: block;
+	/* position: absolute; */
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b407; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+.nav_bar a :hover{
+    color: #ffffff;
+}
+.nav_bar a:hover:after,
+.nav_bar a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.section_about_sublime{
+    margin: 0 auto;
+    width: 1196px;
+    height: 515px;
+    background-color: #ffffff;
+}
+.block_icon_text{
+    display: flex;
+}
+.lorem_text{
+    width: 48%;
+    margin-top: 35px;
+    margin-left: 210px;
+}
+.p1_lorem{
+    width: 94%;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    color: #292929;
+    margin-left: 10px;
+}
+.p2_lorem{
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-left: 10px;
+}
+.line_text:before{
+    content: " ";
+    background: #c5c5c5;
+    width: 1px;
+    height: 130px;
+    float: left;
+    margin-top: 36px;
+    margin-right: 10px;
+}
+.img_icon_about_sublime{
+    /* display: block; */
+    margin-left: 135px;
+    margin-top: 70px;
+}
+.hr_line{
+    width: 130px;
+    border: 1px solid #c5c5c5;
+    margin-right: 42px;
+}
+.icon_games_text{
+    align-items: center;
+    display: block;
+    width: 27%;
+}
+.icon_games_text p{
+    font-size: 10px;
+    text-align: center;
+}
+.icon_games_text h3{
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+}
+.icon_games_text div{
+    display: flex;
+    justify-content: center;
+}
+.icon_games{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.section_Featured_Projects{
+    width: 1196px;
+    height: 704px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.Featured_Projects h3{
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-family: Myriad Pro;
+}
+.Featured_Projects hr{
+    width: 129px;
+    border: 0 none;
+    height: 1px;
+    margin-left: 200px;
+    background: #c5c5c5;
+}
+.Featured_Projects span:nth-child(1){
+    color: #e8b407;
+    font-size: 45px;
+}
+.Featured_Projects span:nth-last-child(1){
+    color: #000000;
+    font-size: 45px;
+}
+.nav_fetured{
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    font-size: 10px;
+    margin-left: 70px;
+}
+.nav_fetured a:after {
+	display: block;
+	/* position: absolute; */
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b407; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+.nav_fetured a :hover{
+    color: #000000;
+}
+.nav_fetured a{
+    text-decoration: none;
+}
+.nav_fetured a p{
+    color: #000000;
+    font-weight: bold;
+}
+.nav_fetured a:hover:after,
+.nav_fetured a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.img_block1{
+    display: flex;
+    padding-right: 1px;
+}
+.img_block1 img{
+    width: 299px;
+}
+.img_block{
+    margin-top: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.section_strategic{
+    width: 1196px;
+    height: 1235px;
+    background:  #ffffff;
+    margin: 0 auto;
+}
+.Strategic_Process{
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 80px;
+}
+.Featured{
+    width: 129px;
+    border: 0 none;
+    height: 1px;
+    margin-left: 100px;
+    background: #c5c5c5;
+
+}
+.Strategic_Process h3{
+    font-size: 30px;
+    font-family: Myriad Pro;
+    margin-bottom: 10px;
+}
+.Strategic_Process span:nth-child(1){
+    color: #e8b407;
+    font-size: 45px;
+}
+.Strategic_Process span:nth-last-child(1){
+    color: #000000;
+    font-size: 45px;
+}
+.strategic_text p:nth-child(1){
+    font-size: 16px;
+    color: #000000;
+    font-family: Myriad Pro;
+}
+.strategic_text p:nth-child(2){
+    font-size: 14px;
+    color: #000000;
+    font-family: Myriad Pro;
+}
+.strategic_text{
+    width: 95%;
+}
+/* -------------------------------------------------------------- */
+.strategic_content{
+    display: grid;
+    width: 970px;
+    margin-left: 80px;
+    grid-template-columns:450px 500px;
+    grid-auto-rows: 288px;
+    margin-top: 30px;
+}
+.strategic_content img{
+    margin: 0;
+}
+.Process_text{
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: Myriad Pro;
+}
+.Process_text{
+    font-size:12px;
+}
+.Process_text span:nth-child(1){
+    color: #000000;
+    font-size: 50px;
+}
+.Process_text span:nth-child(2){
+    color: #000000;
+    font-size: 50px;
+}
+.Process_text2{
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.Process_text2 span:nth-child(1){
+    color: #000000;
+    font-size: 50px;
+}
+.Process_text2 p{
+    font-size: 12px;
+}
+.Process_text3{
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+.Process_text3 span:nth-child(1){
+    color: #000000;
+    font-size: 50px;
+}
